@@ -28,6 +28,9 @@
 (add-hook 'server-after-make-frame-hook
           (lambda () (select-frame-set-input-focus (selected-frame))))
 
+;; open new frames maximized instead of the default ~80x36
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
+
 (after! eglot
   (add-to-list 'eglot-server-programs
                '(nix-mode . ("nixd")))
