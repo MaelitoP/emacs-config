@@ -133,7 +133,9 @@
       :desc "Remove buffer"        "bq" #'kill-current-buffer
       :desc "Toggle explorer"      "e"  #'dired-jump
       :desc "Explorer (window)"    "E"  #'dired-jump-other-window
-      :desc "Scratch buffer"       "o"  #'doom/open-scratch-buffer
+      :desc "Scratch buffer"       "oo" #'doom/open-scratch-buffer
+      :desc "Web browser (webkit)" "ow" #'xwidget-webkit-browse-url
+      :desc "Web browser (eww)"    "oW" #'eww
       :desc "Toggle terminal"      "tt" #'+vterm/toggle
       :desc "Copy file path"       "fy" #'maelito/copy-file-path
       :desc "Jump to symbol"       "si" #'consult-imenu
