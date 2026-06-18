@@ -135,8 +135,8 @@
       :desc "Explorer (window)"    "E"  #'dired-jump-other-window
       :desc "Scratch buffer"       "o"  #'doom/open-scratch-buffer
       :desc "Toggle terminal"      "tt" #'+vterm/toggle
-      :desc "Copy file path"       "pp" #'maelito/copy-file-path
-      :desc "Jump to symbol"       "pi" #'consult-imenu
+      :desc "Copy file path"       "fy" #'maelito/copy-file-path
+      :desc "Jump to symbol"       "si" #'consult-imenu
       ;; git
       :desc "Git commits"          "gc" #'magit-log-current
       :desc "Git status/hunks"     "gh" #'magit-status
