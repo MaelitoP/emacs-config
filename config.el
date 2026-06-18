@@ -5,7 +5,7 @@
       user-mail-address "maelito.contact@gmail.com")
 
 ;;; Theme
-(setq catppuccin-flavor 'macchiato)
+(setq catppuccin-flavor 'mocha)
 (setq doom-theme 'catppuccin)
 
 ;;; Editor options 
