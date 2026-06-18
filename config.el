@@ -24,6 +24,10 @@
 (after! breadcrumb
   (breadcrumb-mode +1))
 
+;; launchd daemon won't foreground itself; focus client frames on creation
+(add-hook 'server-after-make-frame-hook
+          (lambda () (select-frame-set-input-focus (selected-frame))))
+
 (after! eglot
   (add-to-list 'eglot-server-programs
                '(nix-mode . ("nixd")))
