@@ -31,6 +31,9 @@
 ;; open new frames maximized instead of the default ~80x36
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 
+;; discover all repos under ~/dev as projectile projects
+(setq projectile-project-search-path '(("~/dev/" . 1)))
+
 (after! eglot
   (add-to-list 'eglot-server-programs
                '(nix-mode . ("nixd")))
