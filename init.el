@@ -60,6 +60,7 @@
        (ocaml +lsp)              ; ocamllsp
        (go +lsp +tree-sitter)    ; gopls
        (haskell +lsp)            ; haskell-language-server
+       (java +lsp)               ; jdtls (eclipse jdt)
        nix                       ; nixd / nil
        (json +tree-sitter)
        (yaml +lsp)
