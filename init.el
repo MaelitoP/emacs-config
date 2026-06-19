@@ -59,6 +59,7 @@
        (python +lsp +tree-sitter +pyright)
        (ocaml +lsp)              ; ocamllsp
        (go +lsp +tree-sitter)    ; gopls
+       (haskell +lsp)            ; haskell-language-server
        nix                       ; nixd / nil
        (json +tree-sitter)
        (yaml +lsp)
